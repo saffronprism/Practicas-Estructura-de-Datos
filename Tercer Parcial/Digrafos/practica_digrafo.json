@@ -1,0 +1,38 @@
+{
+	"rutas": [
+		{
+			"nodoInicial": "Casa",
+			"nodoFinal": "Metro",
+			"aristaConexion": "Caminando",
+			"tiempo": 15
+		},
+		{
+			"nodoInicial": "Metro",
+			"nodoFinal": "UPIICSA",
+			"aristaConexion": "Metrobus",
+			"tiempo": 40,
+			"costo": 6.000000
+		},
+		{
+			"nodoInicial": "Casa",
+			"nodoFinal": "Centro",
+			"aristaConexion": "Uber",
+			"tiempo": 10,
+			"costo": 80.000000
+		},
+		{
+			"nodoInicial": "Centro",
+			"nodoFinal": "UPIICSA",
+			"aristaConexion": "Taxi",
+			"tiempo": 5,
+			"costo": 50.000000
+		},
+		{
+			"nodoInicial": "UPIICSA",
+			"nodoFinal": "Centro",
+			"aristaConexion": "RTP",
+			"tiempo": 30,
+			"costo": 4.000000
+		}
+	]
+}

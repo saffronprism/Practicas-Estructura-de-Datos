@@ -1,0 +1,98 @@
+{
+	"rutas": [
+		{
+			"nodoInicial": "Casa",
+			"nodoFinal": "Metro",
+			"aristaConexion": "Caminando",
+			"tiempo": 10
+		},
+		{
+			"nodoInicial": "Metro",
+			"nodoFinal": "Casa",
+			"aristaConexion": "Caminando",
+			"tiempo": 10
+		},
+		{
+			"nodoInicial": "Casa",
+			"nodoFinal": "Taxi",
+			"aristaConexion": "Uber",
+			"tiempo": 5,
+			"costo": 50.000000
+		},
+		{
+			"nodoInicial": "Taxi",
+			"nodoFinal": "Casa",
+			"aristaConexion": "Uber",
+			"tiempo": 5,
+			"costo": 50.000000
+		},
+		{
+			"nodoInicial": "Taxi",
+			"nodoFinal": "UPIICSA",
+			"aristaConexion": "Directo",
+			"tiempo": 15,
+			"costo": 10.000000
+		},
+		{
+			"nodoInicial": "UPIICSA",
+			"nodoFinal": "Taxi",
+			"aristaConexion": "Directo",
+			"tiempo": 15,
+			"costo": 10.000000
+		},
+		{
+			"nodoInicial": "Metro",
+			"nodoFinal": "Coyuya",
+			"aristaConexion": "Linea 8",
+			"tiempo": 12,
+			"costo": 5.000000
+		},
+		{
+			"nodoInicial": "Coyuya",
+			"nodoFinal": "Metro",
+			"aristaConexion": "Linea 8",
+			"tiempo": 12,
+			"costo": 5.000000
+		},
+		{
+			"nodoInicial": "Metro",
+			"nodoFinal": "Iztacalco",
+			"aristaConexion": "Linea 8",
+			"tiempo": 15,
+			"costo": 5.000000
+		},
+		{
+			"nodoInicial": "Iztacalco",
+			"nodoFinal": "Metro",
+			"aristaConexion": "Linea 8",
+			"tiempo": 15,
+			"costo": 5.000000
+		},
+		{
+			"nodoInicial": "Iztacalco",
+			"nodoFinal": "UPIICSA",
+			"aristaConexion": "Caminando",
+			"tiempo": 20
+		},
+		{
+			"nodoInicial": "UPIICSA",
+			"nodoFinal": "Iztacalco",
+			"aristaConexion": "Caminando",
+			"tiempo": 20
+		},
+		{
+			"nodoInicial": "Coyuya",
+			"nodoFinal": "UPIICSA",
+			"aristaConexion": "Metrobus",
+			"tiempo": 10,
+			"costo": 6.000000
+		},
+		{
+			"nodoInicial": "UPIICSA",
+			"nodoFinal": "Coyuya",
+			"aristaConexion": "Metrobus",
+			"tiempo": 10,
+			"costo": 6.000000
+		}
+	]
+}
