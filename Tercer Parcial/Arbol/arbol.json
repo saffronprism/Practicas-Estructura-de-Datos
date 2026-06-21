@@ -1,0 +1,18 @@
+{
+	"arbol": [
+		{
+			"padre": "",
+			"hijo": "v",
+			"aristaConexion": "c",
+			"tiempo": 3,
+			"costo": 3
+		},
+		{
+			"padre": "v",
+			"hijo": "2",
+			"aristaConexion": "s",
+			"tiempo": 2,
+			"costo": 2
+		}
+	]
+}
